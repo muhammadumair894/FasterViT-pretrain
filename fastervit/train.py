@@ -306,11 +306,11 @@ group.add_argument('-j', '--workers', type=int, default=8, metavar='N',
                     help='how many training processes to use (default: 8)')
 group.add_argument('--save-images', action='store_true', default=False,
                     help='save images of input bathes every log interval for debugging')
-group.add_argument('--amp', action='store_true', default=False,
+group.add_argument('--amp', action='store_true', default=True,
                     help='use NVIDIA Apex AMP or Native AMP for mixed precision training')
-group.add_argument('--apex-amp', action='store_true', default=False,
+group.add_argument('--apex-amp', action='store_true', default=True,
                     help='Use NVIDIA Apex AMP mixed precision')
-group.add_argument('--native-amp', action='store_true', default=False,
+group.add_argument('--native-amp', action='store_true', default=True,
                     help='Use Native Torch AMP mixed precision')
 group.add_argument('--no-ddp-bb', action='store_true', default=False,
                     help='Force broadcast buffers for native DDP to off.')
