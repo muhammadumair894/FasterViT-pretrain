@@ -1,14 +1,14 @@
 ThreeAugment: false
 aa: rand-m9-mstd0.5-inc1
 activation_tracker: false
-amp: true
+amp: false
 ampere_sparsity: false
 aot_autograd: false
 apex_amp: false
 attn_drop_rate: 0.0
 aug_repeats: 0
 aug_splits: 0
-batch_size: 128
+batch_size: 64
 bce_loss: false
 bce_target_thresh: null
 bn_eps: null
@@ -38,7 +38,7 @@ drop_connect: null
 drop_path: null
 drop_rate: 0.0
 epoch_repeats: 0.0
-epochs: 310
+epochs: 2
 eval_metric: top1
 experiment: ''
 fuser: ''
