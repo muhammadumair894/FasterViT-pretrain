@@ -26,7 +26,7 @@ cutmix_minmax: null
 data_dir: /datasets/imagenet_lmdb
 data_len: 1281167
 dataset: ''
-dataset_download: false
+dataset_download: true
 decay_epochs: 100
 decay_milestones:
 - 30
