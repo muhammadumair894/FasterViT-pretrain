@@ -1,7 +1,7 @@
 ThreeAugment: false
 aa: rand-m9-mstd0.5-inc1
 activation_tracker: false
-amp: false
+amp: true
 ampere_sparsity: false
 aot_autograd: false
 apex_amp: false
