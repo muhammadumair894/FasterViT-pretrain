@@ -22,7 +22,7 @@ import torch
 import torch.nn as nn
 import torch.nn.parallel
 from models.faster_vit import *
-from models.gcvit import *
+#from models.gcvit import *
 from timm.data import create_dataset, create_loader, resolve_data_config, RealLabelsImagenet
 from timm.layers import apply_test_time_pool, set_fast_norm
 from timm.models import create_model, load_checkpoint, is_model, list_models
